@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Send Thanks View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SendThanksViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SendThanksViewController" customModule="SchoolThanksApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart-button" translatesAutoresizingMaskIntoConstraints="NO" id="FKL-pO-G04">
+                                <rect key="frame" x="97" y="64" width="220" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="hcu-Xd-VRl"/>
+                                    <constraint firstAttribute="width" constant="220" id="rC8-X9-tDu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="先生に一言ありがとうを伝えよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybM-n8-f8X">
+                                <rect key="frame" x="40" y="390.5" width="334.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ありがとうの内容を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lhe-05-YGn">
+                                <rect key="frame" x="114.5" y="429" width="185.5" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsd-wV-3Pd">
+                                <rect key="frame" x="208" y="433" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="自分の名前を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NfP-gP-MFa">
+                                <rect key="frame" x="136" y="551.5" width="142.5" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="より" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mug-vb-dRe">
+                                <rect key="frame" x="353" y="556.5" width="41" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自分の名前を入力しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXx-Nn-g33">
+                                <rect key="frame" x="84.5" y="513" width="245.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utW-vB-XWP">
+                                <rect key="frame" x="144.5" y="615.5" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="MSq-S8-8QU"/>
+                                    <constraint firstAttribute="width" constant="125" id="RG2-aw-Kdf"/>
+                                </constraints>
+                                <state key="normal" image="heart-button"/>
+                                <connections>
+                                    <action selector="sendThanks:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="uFD-Ok-rAi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ボタンを押してありがとうを伝える" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfB-ke-O7u">
+                                <rect key="frame" x="44" y="760.5" width="326.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shw-n3-4Q2">
+                                <rect key="frame" x="133.5" y="314" width="147" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FKL-pO-G04" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="0Vq-E0-RDu"/>
+                            <constraint firstItem="tfB-ke-O7u" firstAttribute="top" secondItem="utW-vB-XWP" secondAttribute="bottom" constant="20" id="6s7-eG-n4E"/>
+                            <constraint firstItem="ybM-n8-f8X" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Bun-38-RWl"/>
+                            <constraint firstItem="Lhe-05-YGn" firstAttribute="top" secondItem="ybM-n8-f8X" secondAttribute="bottom" constant="12" id="MYl-29-vJf"/>
+                            <constraint firstItem="utW-vB-XWP" firstAttribute="top" secondItem="NfP-gP-MFa" secondAttribute="bottom" constant="30" id="PUg-P1-4RP"/>
+                            <constraint firstItem="shw-n3-4Q2" firstAttribute="top" secondItem="FKL-pO-G04" secondAttribute="bottom" constant="30" id="PaK-8h-e2F"/>
+                            <constraint firstItem="NfP-gP-MFa" firstAttribute="top" secondItem="kXx-Nn-g33" secondAttribute="bottom" constant="12" id="UMo-gd-ghP"/>
+                            <constraint firstItem="Lhe-05-YGn" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="aGZ-RJ-U4s"/>
+                            <constraint firstItem="utW-vB-XWP" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="ayk-bS-Uwh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Mug-vb-dRe" secondAttribute="trailing" constant="20" id="bU6-yq-crq"/>
+                            <constraint firstItem="ybM-n8-f8X" firstAttribute="top" secondItem="shw-n3-4Q2" secondAttribute="bottom" constant="50" id="fCh-nA-KX7"/>
+                            <constraint firstItem="kXx-Nn-g33" firstAttribute="top" secondItem="Lhe-05-YGn" secondAttribute="bottom" constant="50" id="iZ1-Mk-ved"/>
+                            <constraint firstItem="NfP-gP-MFa" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="ias-xU-DyZ"/>
+                            <constraint firstItem="kXx-Nn-g33" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="jRG-35-Ims"/>
+                            <constraint firstItem="FKL-pO-G04" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="jUW-Q4-hGN"/>
+                            <constraint firstItem="tfB-ke-O7u" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="jc3-ci-bjw"/>
+                            <constraint firstItem="shw-n3-4Q2" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="l9w-Hv-DqY"/>
+                            <constraint firstItem="Mug-vb-dRe" firstAttribute="centerY" secondItem="NfP-gP-MFa" secondAttribute="centerY" id="vef-bE-hji"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sendThanksButton" destination="utW-vB-XWP" id="tWt-fR-4J5"/>
+                        <outlet property="senderNameTextField" destination="NfP-gP-MFa" id="e1Y-ov-SSX"/>
+                        <outlet property="teacherNameLabel" destination="shw-n3-4Q2" id="zxa-uR-TEY"/>
+                        <outlet property="thanksMessageTextField" destination="Lhe-05-YGn" id="iGa-bT-1HR"/>
+                        <outlet property="userProfileImageView" destination="FKL-pO-G04" id="0oT-Nq-S0K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="85.714285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart-button" width="1280" height="1280"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086521392708293A00D1BAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086521382708293A00D1BAD3 /* AppDelegate.swift */; };
+		0865213B2708293A00D1BAD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865213A2708293A00D1BAD3 /* SceneDelegate.swift */; };
+		0865213D2708293A00D1BAD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865213C2708293A00D1BAD3 /* ViewController.swift */; };
+		086521402708293A00D1BAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0865213E2708293A00D1BAD3 /* Main.storyboard */; };
+		086521422708293C00D1BAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086521412708293C00D1BAD3 /* Assets.xcassets */; };
+		086521452708293C00D1BAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086521432708293C00D1BAD3 /* LaunchScreen.storyboard */; };
+		0865214E27082ED200D1BAD3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 0865214D27082ED200D1BAD3 /* RxRelay */; };
+		0865215027082ED200D1BAD3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0865214F27082ED200D1BAD3 /* RxCocoa */; };
+		0865215227082ED200D1BAD3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0865215127082ED200D1BAD3 /* RxSwift */; };
+		08652154270834BE00D1BAD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08652153270834BE00D1BAD3 /* GoogleService-Info.plist */; };
+		08652157270835BF00D1BAD3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 08652156270835BF00D1BAD3 /* FirebaseAuth */; };
+		08652159270835BF00D1BAD3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 08652158270835BF00D1BAD3 /* FirebaseFirestore */; };
+		0865215B270835BF00D1BAD3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0865215A270835BF00D1BAD3 /* FirebaseStorage */; };
+		086521662708421B00D1BAD3 /* ThanksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086521652708421B00D1BAD3 /* ThanksListViewController.swift */; };
+		0865216A270842AB00D1BAD3 /* ThanksListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08652169270842AB00D1BAD3 /* ThanksListViewController.storyboard */; };
+		0865216C2708454900D1BAD3 /* ThanksListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865216B2708454900D1BAD3 /* ThanksListViewModel.swift */; };
+		0865216E27084A4100D1BAD3 /* LoginTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865216D27084A4100D1BAD3 /* LoginTeacherViewController.swift */; };
+		0865217B2708542500D1BAD3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865217A2708542500D1BAD3 /* Extensions.swift */; };
+		0865217D270854C300D1BAD3 /* ThanksMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865217C270854C300D1BAD3 /* ThanksMessageTableViewCell.swift */; };
+		0865217F270854D000D1BAD3 /* ThanksMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0865217E270854D000D1BAD3 /* ThanksMessageTableViewCell.xib */; };
+		086521812708653400D1BAD3 /* LoginTeacherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086521802708653400D1BAD3 /* LoginTeacherViewModel.swift */; };
+		086521832708658700D1BAD3 /* LoginTeacherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086521822708658700D1BAD3 /* LoginTeacherViewController.storyboard */; };
+		0865218F2708BBF300D1BAD3 /* MessagesSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865218E2708BBF200D1BAD3 /* MessagesSummaryTableViewCell.swift */; };
+		086521912708BC0400D1BAD3 /* MessagesSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086521902708BC0400D1BAD3 /* MessagesSummaryTableViewCell.xib */; };
+		086521942708C11500D1BAD3 /* CreateNewTeacherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086521932708C11500D1BAD3 /* CreateNewTeacherViewController.storyboard */; };
+		086521962708C2CE00D1BAD3 /* CreateNewTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086521952708C2CE00D1BAD3 /* CreateNewTeacherViewController.swift */; };
+		086521982708C39600D1BAD3 /* CreateNewTeacherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086521972708C39600D1BAD3 /* CreateNewTeacherViewModel.swift */; };
+		0865219A2709062B00D1BAD3 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086521992709062B00D1BAD3 /* AccountService.swift */; };
+		086521A027090A1800D1BAD3 /* TeachersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865219C27090A1800D1BAD3 /* TeachersListTableViewCell.swift */; };
+		086521A127090A1800D1BAD3 /* TeachersListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0865219D27090A1800D1BAD3 /* TeachersListViewController.storyboard */; };
+		086521A227090A1800D1BAD3 /* TeachersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865219E27090A1800D1BAD3 /* TeachersListViewController.swift */; };
+		086521A327090A1800D1BAD3 /* TeachersListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0865219F27090A1800D1BAD3 /* TeachersListTableViewCell.xib */; };
+		086521AC270928CB00D1BAD3 /* SendThanksViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086521AA270928CB00D1BAD3 /* SendThanksViewController.storyboard */; };
+		086521AD270928CB00D1BAD3 /* SendThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086521AB270928CB00D1BAD3 /* SendThanksViewController.swift */; };
+		344D750C27084E3700014008 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D750B27084E3700014008 /* Teacher.swift */; };
+		344D750E27084EE100014008 /* ThanksMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D750D27084EE100014008 /* ThanksMessageList.swift */; };
+		344D751027084F9C00014008 /* ThanksMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D750F27084F9C00014008 /* ThanksMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		086521352708293A00D1BAD3 /* SchoolThanksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolThanksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086521382708293A00D1BAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0865213A2708293A00D1BAD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0865213C2708293A00D1BAD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0865213F2708293A00D1BAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		086521412708293C00D1BAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086521442708293C00D1BAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		086521462708293C00D1BAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08652153270834BE00D1BAD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		086521652708421B00D1BAD3 /* ThanksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksListViewController.swift; sourceTree = "<group>"; };
+		08652169270842AB00D1BAD3 /* ThanksListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThanksListViewController.storyboard; sourceTree = "<group>"; };
+		0865216B2708454900D1BAD3 /* ThanksListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksListViewModel.swift; sourceTree = "<group>"; };
+		0865216D27084A4100D1BAD3 /* LoginTeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTeacherViewController.swift; sourceTree = "<group>"; };
+		0865217A2708542500D1BAD3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0865217C270854C300D1BAD3 /* ThanksMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksMessageTableViewCell.swift; sourceTree = "<group>"; };
+		0865217E270854D000D1BAD3 /* ThanksMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThanksMessageTableViewCell.xib; sourceTree = "<group>"; };
+		086521802708653400D1BAD3 /* LoginTeacherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTeacherViewModel.swift; sourceTree = "<group>"; };
+		086521822708658700D1BAD3 /* LoginTeacherViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginTeacherViewController.storyboard; sourceTree = "<group>"; };
+		0865218E2708BBF200D1BAD3 /* MessagesSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		086521902708BC0400D1BAD3 /* MessagesSummaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesSummaryTableViewCell.xib; sourceTree = "<group>"; };
+		086521932708C11500D1BAD3 /* CreateNewTeacherViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateNewTeacherViewController.storyboard; sourceTree = "<group>"; };
+		086521952708C2CE00D1BAD3 /* CreateNewTeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewTeacherViewController.swift; sourceTree = "<group>"; };
+		086521972708C39600D1BAD3 /* CreateNewTeacherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewTeacherViewModel.swift; sourceTree = "<group>"; };
+		086521992709062B00D1BAD3 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		0865219C27090A1800D1BAD3 /* TeachersListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachersListTableViewCell.swift; sourceTree = "<group>"; };
+		0865219D27090A1800D1BAD3 /* TeachersListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TeachersListViewController.storyboard; sourceTree = "<group>"; };
+		0865219E27090A1800D1BAD3 /* TeachersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachersListViewController.swift; sourceTree = "<group>"; };
+		0865219F27090A1800D1BAD3 /* TeachersListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeachersListTableViewCell.xib; sourceTree = "<group>"; };
+		086521AA270928CB00D1BAD3 /* SendThanksViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SendThanksViewController.storyboard; sourceTree = "<group>"; };
+		086521AB270928CB00D1BAD3 /* SendThanksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendThanksViewController.swift; sourceTree = "<group>"; };
+		344D750B27084E3700014008 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		344D750D27084EE100014008 /* ThanksMessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksMessageList.swift; sourceTree = "<group>"; };
+		344D750F27084F9C00014008 /* ThanksMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086521322708293A00D1BAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0865215227082ED200D1BAD3 /* RxSwift in Frameworks */,
+				0865215027082ED200D1BAD3 /* RxCocoa in Frameworks */,
+				0865214E27082ED200D1BAD3 /* RxRelay in Frameworks */,
+				08652159270835BF00D1BAD3 /* FirebaseFirestore in Frameworks */,
+				08652157270835BF00D1BAD3 /* FirebaseAuth in Frameworks */,
+				0865215B270835BF00D1BAD3 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0865212C2708293A00D1BAD3 = {
+			isa = PBXGroup;
+			children = (
+				086521372708293A00D1BAD3 /* SchoolThanksApp */,
+				086521362708293A00D1BAD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086521362708293A00D1BAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086521352708293A00D1BAD3 /* SchoolThanksApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086521372708293A00D1BAD3 /* SchoolThanksApp */ = {
+			isa = PBXGroup;
+			children = (
+				0865213C2708293A00D1BAD3 /* ViewController.swift */,
+				0865215C27083D9A00D1BAD3 /* Sources */,
+				0865213E2708293A00D1BAD3 /* Main.storyboard */,
+				086521412708293C00D1BAD3 /* Assets.xcassets */,
+				086521432708293C00D1BAD3 /* LaunchScreen.storyboard */,
+				08652153270834BE00D1BAD3 /* GoogleService-Info.plist */,
+				086521462708293C00D1BAD3 /* Info.plist */,
+			);
+			path = SchoolThanksApp;
+			sourceTree = "<group>";
+		};
+		0865215C27083D9A00D1BAD3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				086521382708293A00D1BAD3 /* AppDelegate.swift */,
+				0865213A2708293A00D1BAD3 /* SceneDelegate.swift */,
+				086521992709062B00D1BAD3 /* AccountService.swift */,
+				0865219B27090A1800D1BAD3 /* TeachersListView */,
+				0865218D270891B000D1BAD3 /* Extensions */,
+				086521A9270928CB00D1BAD3 /* SendThanksView */,
+				344D750A27084E1E00014008 /* Models */,
+				08652164270841E100D1BAD3 /* ThanksListView */,
+				086521922708C0D300D1BAD3 /* CreateNewTeacherView */,
+				0865215E27083DEB00D1BAD3 /* LoginView */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0865215E27083DEB00D1BAD3 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				0865216D27084A4100D1BAD3 /* LoginTeacherViewController.swift */,
+				086521822708658700D1BAD3 /* LoginTeacherViewController.storyboard */,
+				086521802708653400D1BAD3 /* LoginTeacherViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		08652164270841E100D1BAD3 /* ThanksListView */ = {
+			isa = PBXGroup;
+			children = (
+				086521652708421B00D1BAD3 /* ThanksListViewController.swift */,
+				08652169270842AB00D1BAD3 /* ThanksListViewController.storyboard */,
+				0865216B2708454900D1BAD3 /* ThanksListViewModel.swift */,
+				0865217C270854C300D1BAD3 /* ThanksMessageTableViewCell.swift */,
+				0865217E270854D000D1BAD3 /* ThanksMessageTableViewCell.xib */,
+				0865218E2708BBF200D1BAD3 /* MessagesSummaryTableViewCell.swift */,
+				086521902708BC0400D1BAD3 /* MessagesSummaryTableViewCell.xib */,
+			);
+			path = ThanksListView;
+			sourceTree = "<group>";
+		};
+		0865218D270891B000D1BAD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0865217A2708542500D1BAD3 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		086521922708C0D300D1BAD3 /* CreateNewTeacherView */ = {
+			isa = PBXGroup;
+			children = (
+				086521952708C2CE00D1BAD3 /* CreateNewTeacherViewController.swift */,
+				086521932708C11500D1BAD3 /* CreateNewTeacherViewController.storyboard */,
+				086521972708C39600D1BAD3 /* CreateNewTeacherViewModel.swift */,
+			);
+			path = CreateNewTeacherView;
+			sourceTree = "<group>";
+		};
+		0865219B27090A1800D1BAD3 /* TeachersListView */ = {
+			isa = PBXGroup;
+			children = (
+				0865219C27090A1800D1BAD3 /* TeachersListTableViewCell.swift */,
+				0865219D27090A1800D1BAD3 /* TeachersListViewController.storyboard */,
+				0865219E27090A1800D1BAD3 /* TeachersListViewController.swift */,
+				0865219F27090A1800D1BAD3 /* TeachersListTableViewCell.xib */,
+			);
+			path = TeachersListView;
+			sourceTree = "<group>";
+		};
+		086521A9270928CB00D1BAD3 /* SendThanksView */ = {
+			isa = PBXGroup;
+			children = (
+				086521AA270928CB00D1BAD3 /* SendThanksViewController.storyboard */,
+				086521AB270928CB00D1BAD3 /* SendThanksViewController.swift */,
+			);
+			path = SendThanksView;
+			sourceTree = "<group>";
+		};
+		344D750A27084E1E00014008 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				344D750B27084E3700014008 /* Teacher.swift */,
+				344D750D27084EE100014008 /* ThanksMessageList.swift */,
+				344D750F27084F9C00014008 /* ThanksMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086521342708293A00D1BAD3 /* SchoolThanksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086521492708293C00D1BAD3 /* Build configuration list for PBXNativeTarget "SchoolThanksApp" */;
+			buildPhases = (
+				086521312708293A00D1BAD3 /* Sources */,
+				086521322708293A00D1BAD3 /* Frameworks */,
+				086521332708293A00D1BAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolThanksApp;
+			packageProductDependencies = (
+				0865214D27082ED200D1BAD3 /* RxRelay */,
+				0865214F27082ED200D1BAD3 /* RxCocoa */,
+				0865215127082ED200D1BAD3 /* RxSwift */,
+				08652156270835BF00D1BAD3 /* FirebaseAuth */,
+				08652158270835BF00D1BAD3 /* FirebaseFirestore */,
+				0865215A270835BF00D1BAD3 /* FirebaseStorage */,
+			);
+			productName = SchoolThanksApp;
+			productReference = 086521352708293A00D1BAD3 /* SchoolThanksApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0865212D2708293A00D1BAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					086521342708293A00D1BAD3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 086521302708293A00D1BAD3 /* Build configuration list for PBXProject "SchoolThanksApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0865212C2708293A00D1BAD3;
+			packageReferences = (
+				0865214C27082ED200D1BAD3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				08652155270835BF00D1BAD3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 086521362708293A00D1BAD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086521342708293A00D1BAD3 /* SchoolThanksApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086521332708293A00D1BAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0865217F270854D000D1BAD3 /* ThanksMessageTableViewCell.xib in Resources */,
+				0865216A270842AB00D1BAD3 /* ThanksListViewController.storyboard in Resources */,
+				086521942708C11500D1BAD3 /* CreateNewTeacherViewController.storyboard in Resources */,
+				086521A327090A1800D1BAD3 /* TeachersListTableViewCell.xib in Resources */,
+				086521AC270928CB00D1BAD3 /* SendThanksViewController.storyboard in Resources */,
+				086521452708293C00D1BAD3 /* LaunchScreen.storyboard in Resources */,
+				086521A127090A1800D1BAD3 /* TeachersListViewController.storyboard in Resources */,
+				08652154270834BE00D1BAD3 /* GoogleService-Info.plist in Resources */,
+				086521912708BC0400D1BAD3 /* MessagesSummaryTableViewCell.xib in Resources */,
+				086521422708293C00D1BAD3 /* Assets.xcassets in Resources */,
+				086521402708293A00D1BAD3 /* Main.storyboard in Resources */,
+				086521832708658700D1BAD3 /* LoginTeacherViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086521312708293A00D1BAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344D750E27084EE100014008 /* ThanksMessageList.swift in Sources */,
+				0865216E27084A4100D1BAD3 /* LoginTeacherViewController.swift in Sources */,
+				086521A027090A1800D1BAD3 /* TeachersListTableViewCell.swift in Sources */,
+				344D751027084F9C00014008 /* ThanksMessage.swift in Sources */,
+				0865216C2708454900D1BAD3 /* ThanksListViewModel.swift in Sources */,
+				0865213D2708293A00D1BAD3 /* ViewController.swift in Sources */,
+				086521A227090A1800D1BAD3 /* TeachersListViewController.swift in Sources */,
+				344D750C27084E3700014008 /* Teacher.swift in Sources */,
+				086521662708421B00D1BAD3 /* ThanksListViewController.swift in Sources */,
+				086521962708C2CE00D1BAD3 /* CreateNewTeacherViewController.swift in Sources */,
+				0865219A2709062B00D1BAD3 /* AccountService.swift in Sources */,
+				086521AD270928CB00D1BAD3 /* SendThanksViewController.swift in Sources */,
+				086521982708C39600D1BAD3 /* CreateNewTeacherViewModel.swift in Sources */,
+				0865217D270854C300D1BAD3 /* ThanksMessageTableViewCell.swift in Sources */,
+				0865218F2708BBF300D1BAD3 /* MessagesSummaryTableViewCell.swift in Sources */,
+				086521812708653400D1BAD3 /* LoginTeacherViewModel.swift in Sources */,
+				086521392708293A00D1BAD3 /* AppDelegate.swift in Sources */,
+				0865217B2708542500D1BAD3 /* Extensions.swift in Sources */,
+				0865213B2708293A00D1BAD3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0865213E2708293A00D1BAD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0865213F2708293A00D1BAD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		086521432708293C00D1BAD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086521442708293C00D1BAD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086521472708293C00D1BAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		086521482708293C00D1BAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0865214A2708293C00D1BAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VCP3BNMMQR;
+				INFOPLIST_FILE = SchoolThanksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.maeken.SchoolThanksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0865214B2708293C00D1BAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VCP3BNMMQR;
+				INFOPLIST_FILE = SchoolThanksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.maeken.SchoolThanksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086521302708293A00D1BAD3 /* Build configuration list for PBXProject "SchoolThanksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086521472708293C00D1BAD3 /* Debug */,
+				086521482708293C00D1BAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086521492708293C00D1BAD3 /* Build configuration list for PBXNativeTarget "SchoolThanksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0865214A2708293C00D1BAD3 /* Debug */,
+				0865214B2708293C00D1BAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0865214C27082ED200D1BAD3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		08652155270835BF00D1BAD3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0865214D27082ED200D1BAD3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0865214C27082ED200D1BAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		0865214F27082ED200D1BAD3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0865214C27082ED200D1BAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		0865215127082ED200D1BAD3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0865214C27082ED200D1BAD3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		08652156270835BF00D1BAD3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08652155270835BF00D1BAD3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		08652158270835BF00D1BAD3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08652155270835BF00D1BAD3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0865215A270835BF00D1BAD3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08652155270835BF00D1BAD3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0865212D2708293A00D1BAD3 /* Project object */;
+}

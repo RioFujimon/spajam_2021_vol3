@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>405888159746-ol43h1gi1g0toivm6dnti7ld9mve16jf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.405888159746-ol43h1gi1g0toivm6dnti7ld9mve16jf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDB4pfeuS1GytMQ_Zmusk0P3oaYNGC6K-g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>405888159746</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.maeken.SchoolThanksApp</string>
+	<key>PROJECT_ID</key>
+	<string>schoolthanksapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>schoolthanksapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:405888159746:ios:63c087418d5b9592ad971b</string>
+</dict>
+</plist>
